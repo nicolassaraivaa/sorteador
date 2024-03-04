@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    top: 120px;
+    width: 500px;
+}
+
+main{
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    width: 780px;
+    position: relative;
+    top: 155px;
+
+}
+
+p{
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.input-number{
+    Width: 342px;
+    Height:74px;
+    border-radius: 14px;
+    font-size: 30px;
+    background: #404040;
+    border: solid 2px gray;
+    outline: none;
+    margin-left: 13px;
+    margin-right: 13px;
+    color: white;
+}
+
+.input-number::placeholder{
+    color: white;
+    font-weight: 450;
+    opacity: 70%;
+    padding-left: 10px;
+
+}
+
+button{
+    width: 342px;
+    height: 72px;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px 0px #AEC34659;
+    border: none;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    margin-top: 45px;
+
+}
+
+@media screen and (max-width: 770px ) and (orientation: portrait){
+    
+    main{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: beige;
+    }
+
+    p{
+        margin-bottom: 10px;
+    }
+
+    .input-number{
+        width: 100%;
+    }
+
+    button{
+        margin-top: 25px;
+
+    }
+}
+
+@media screen and (max-width: 560px ) and (orientation: portrait){
+    img{
+        width: 380px;
+    }
+
+    main{
+        width: 380px;
+    }
+}
