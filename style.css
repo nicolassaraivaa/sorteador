@@ -46,6 +46,7 @@ p{
     margin-left: 13px;
     margin-right: 13px;
     color: white;
+    padding: 15px;
 }
 
 .input-number::placeholder{
@@ -67,6 +68,16 @@ button{
     font-weight: 700;
     color: white;
     margin-top: 45px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #c1cf7c;
+}
+
+button:active{
+    background-color: #cbd499;
 
 }
 
