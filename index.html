@@ -16,8 +16,11 @@
     <img src="assets/logo-sorteador.png" alt="logo-sorteador">
     <main>
         <p>Sortear um número</p>
-        <input type="number" placeholder="Entre" class="input-number input-min" min="0">
+        <input type="number" placeholder="Entre" class="input-number input-min" min="0" pattern="[0-9]*">
         <input type="number" placeholder="E" class="input-number input-max" min="0">
+        <div class="div-result">
+            <h2 class="result-draw"></h2> 
+        </div>
         <button class="draw-button">Sortear</button>
     </main>
 </body>
